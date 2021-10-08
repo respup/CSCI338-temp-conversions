@@ -50,7 +50,7 @@ public class CelsiusPanel extends JPanel
 			String text = celsius.getText();
 
 			celsiusTemp = Integer.parseInt(text);
-			fahrenheitTemp = (celsiusTemp*(9/5))+32;
+			fahrenheitTemp = (celsiusTemp*(9/5)+32);
 
 			resultLabel.setText(Integer.toString(fahrenheitTemp));
 		}
