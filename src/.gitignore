@@ -7,3 +7,5 @@
 /FahrenheitPanel.class
 /RankinePanel$RankineTempListener.class
 /RankinePanel.class
+/KelvinToCelsiusPanel.class
+/KelvinToCelsiusPanel$TempListener.class

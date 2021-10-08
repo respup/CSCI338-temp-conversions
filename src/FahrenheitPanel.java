@@ -31,7 +31,7 @@ public class FahrenheitPanel extends JPanel
 		add(resultLabel);
 
 		setPreferredSize(new Dimension(300, 75));
-		setBackground(Color.yellow);
+		setBackground(Color.orange);
 	}
 
 	//*****************************************************************
