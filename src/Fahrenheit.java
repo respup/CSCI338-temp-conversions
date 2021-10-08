@@ -37,5 +37,16 @@ public class Fahrenheit
 		frame.getContentPane().add(mainPanel);		// add main panel to frame
 		frame.pack();
 		frame.setVisible(true);
+		
+		
+        	JFrame cFrame = new JFrame("Celsius");
+		cFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		CelsiusPanel cPanel = new CelsiusPanel();
+		cFrame.getContentPane().add(cPanel);
+
+		cFrame.pack();
+		cFrame.setVisible(true);
+		
 	}
 }
