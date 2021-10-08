@@ -30,23 +30,31 @@ public class Fahrenheit
 		
 		// Celsius to kelvin panel
 		//----------------------------------------------------------
-		CelsiusToKelvinPanel panelCelsius = new CelsiusToKelvinPanel();
-		mainPanel.add(panelCelsius);
+		CelsiusToKelvinPanel panelCelsiusKelvin = new CelsiusToKelvinPanel();
+		mainPanel.add(panelCelsiusKelvin);
 		//----------------------------------------------------------
+		
+		// Celsius to fahrenheit panel
+		//----------------------------------------------------------
+		CelsiusPanel cPanel = new CelsiusPanel();
+		mainPanel.add(cPanel);
+		//----------------------------------------------------------
+		
+		// Rankine panel
+		//----------------------------------------------------------
+		RankinePanel rPanel = new RankinePanel();
+		mainPanel.add(rPanel);
 		
 		frame.getContentPane().add(mainPanel);		// add main panel to frame
 		frame.pack();
 		frame.setVisible(true);
+		//----------------------------------------------------------
 		
-		
-        	JFrame cFrame = new JFrame("Celsius");
-		cFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-		CelsiusPanel cPanel = new CelsiusPanel();
-		cFrame.getContentPane().add(cPanel);
-
-		cFrame.pack();
-		cFrame.setVisible(true);
+//      JFrame cFrame = new JFrame("Celsius");
+//		cFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//		cFrame.getContentPane().add(cPanel);
+//		cFrame.pack();
+//		cFrame.setVisible(true);
 		
 	}
 }
